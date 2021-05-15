@@ -50,7 +50,7 @@ done
 shift $(($OPTIND - 1))
 
 #input validation
-if [ $# -eq  0 ] ; then
+if [ $# -eq  0 ]; then
   echo "Usage: $(basename $0) [-d c] [-t c] number"
   echo " -d specifies the decimal point delimiter"
   echo " -t specifies the thousands delimiter"
